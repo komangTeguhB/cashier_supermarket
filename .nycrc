@@ -1,0 +1,19 @@
+{
+  "include": [
+    "src/*.js",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "spec",
+    "node_modules"
+  ],
+  "extension": [
+    ".js"
+  ],
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+  "cache": true,
+  "all": true
+}

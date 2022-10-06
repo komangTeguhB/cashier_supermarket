@@ -1,0 +1,20 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "this is a technical test",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf coverage",
+    "test": "npm run clean && npm run test:watch",
+    "test:coverage": "nyc mocha",
+    "test:watch": "mocha --watch"
+  },
+  "author": "KomangTeguhB",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "rimraf": "^3.0.2"
+  }
+}
