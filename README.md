@@ -24,7 +24,9 @@ price = co.total
 
 My approach is to create a solution in javascript, and make class objects to represent the models that are required in that case.
 
+please run:
 ### `npm install`
 
+then:
 ### `npm test`
 
